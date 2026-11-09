@@ -4,7 +4,7 @@
 
 **Engineer in Progress** is Hidayat Babayev's personal portfolio for the SITE-1101 Principles of Information Systems Individual Project at ADA University. It introduces his studies and interests and documents selected coursework, learning experiences, and ambitions in a dark visual style inspired by engineering and Formula 1.
 
-The site is a static website. It is not connected to a back end, and the repository and public GitHub Pages address have not yet been set up.
+The site is a static website and is not connected to a back end. It now has a local Git repository; the GitHub remote repository and public GitHub Pages address have not yet been set up.
 
 ## Project purpose
 
@@ -98,8 +98,8 @@ Then visit <http://localhost:8000/projects.html> to check the video player. The 
 
 The GitHub repository and Pages site must be created and published by the owner; they are not configured yet.
 
-1. Create a repository while signed into [GitHub](https://github.com/hidibbv). Choose a repository name and visibility appropriate for the assignment. For a standard project repository, the expected site URL will be `https://hidibbv.github.io/REPOSITORY-NAME/`.
-2. Install Git for Windows if needed. In a terminal opened at this folder, inspect the folder first; initialize Git only if it does not already have a `.git` directory. Since this project currently has no Git history, make an honest initial commit of the current website:
+1. Create a **public** repository while signed into [GitHub](https://github.com/hidibbv). A repository named `hidibbv.github.io` serves the site at `https://hidibbv.github.io/`; a differently named repository is normally served at `https://hidibbv.github.io/REPOSITORY-NAME/`.
+2. Git is initialized locally on branch `main`, and the current portfolio has an initial commit. For a fresh copy that has not yet been initialized, install Git for Windows and create the initial commit:
 
    ```powershell
    git init
@@ -107,12 +107,17 @@ The GitHub repository and Pages site must be created and published by the owner;
    git commit -m "Build Engineer in Progress portfolio"
    ```
 
-   The command above is an instruction, not a record of a commit already made. Make further commits as real, distinct work is completed—for example, when you add verified project details or the authentic conversation export. Do not split the existing files into artificial commits or claim a development history that was not recorded.
-3. Add the new GitHub repository as the `origin` remote, then push the intended branch (commonly `main`) following the instructions shown by GitHub for that repository.
+   The commands above are setup instructions for a fresh checkout, not a record of this project's history.
+3. After creating the GitHub repository, add it as the `origin` remote and push the existing `main` branch, substituting the repository name you actually chose:
+
+   ```powershell
+   git remote add origin https://github.com/hidibbv/REPOSITORY-NAME.git
+   git push -u origin main
+   ```
 4. On GitHub, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and the `/ (root)` folder, then save.
 5. Wait for the Pages deployment to finish. Confirm the published URL in **Settings → Pages**, and test the home page and navigation links there.
 
-Git is not currently available in the working environment, and no `.git` directory, GitHub repository, remote, or published Pages URL was present when this README was written. Do not copy the example repository URL pattern until you have selected the actual repository name.
+Git is available and has been initialized locally. The initial local commit exists, but no GitHub remote, public GitHub repository, or published Pages URL has been set up yet. Replace `REPOSITORY-NAME` with the exact repository name you create; if Git reports that an `origin` remote already exists, inspect it with `git remote -v` rather than adding a second remote.
 
 ## GitHub links
 
