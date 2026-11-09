@@ -1,16 +1,19 @@
 /**
  * Shared navigation for every page.
  *
- * GITHUB_URL is the single JavaScript copy of the profile address.
- * The same address is also written in the HTML href, so the link
- * still works if this file does not run. There is no LinkedIn link:
- * Hidayat does not have a LinkedIn account.
+ * The profile and portfolio repository URLs are also written into
+ * their HTML hrefs, so both links work if this file does not run.
  */
 const GITHUB_URL = "https://github.com/hidibbv";
+const GITHUB_REPOSITORY_URL = "https://github.com/hidibbv/hidibbv.github.io";
 
 (function () {
   document.querySelectorAll("[data-github]").forEach((link) => {
     link.href = GITHUB_URL;
+  });
+
+  document.querySelectorAll("[data-repository]").forEach((link) => {
+    link.href = GITHUB_REPOSITORY_URL;
   });
 
   const year = document.querySelector("[data-year]");

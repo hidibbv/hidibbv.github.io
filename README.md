@@ -125,7 +125,7 @@ Git is available; local commits and the `origin` remote are ready. The current e
 - Repository: [github.com/hidibbv/hidibbv.github.io](https://github.com/hidibbv/hidibbv.github.io) (public; code push still pending).
 - Website: expected at [hidibbv.github.io](https://hidibbv.github.io/) after GitHub Pages is enabled and deploys successfully.
 
-The site currently links to the GitHub profile. Add a repository link/icon to the site after the repository has received its website code.
+The header GitHub icon links to the portfolio repository; the footer GitHub icon links to Hidayat's profile.
 
 ## Assignment checklist
 
