@@ -4,7 +4,7 @@
 
 **Engineer in Progress** is Hidayat Babayev's personal portfolio for the SITE-1101 Principles of Information Systems Individual Project at ADA University. It introduces his studies and interests and documents selected coursework, learning experiences, and ambitions in a dark visual style inspired by engineering and Formula 1.
 
-The site is a static website and is not connected to a back end. It now has a local Git repository; the GitHub remote repository and public GitHub Pages address have not yet been set up.
+The site is a static website and is not connected to a back end. It has a local Git repository on `main` and a public GitHub repository; the commits have not yet been pushed, and GitHub Pages is not yet enabled.
 
 ## Project purpose
 
@@ -96,10 +96,10 @@ Then visit <http://localhost:8000/projects.html> to check the video player. The 
 
 ## Publish with GitHub Pages
 
-The GitHub repository and Pages site must be created and published by the owner; they are not configured yet.
+The public repository [hidibbv/hidibbv.github.io](https://github.com/hidibbv/hidibbv.github.io) has been created. The local `origin` remote is configured, but the code still needs to be pushed and GitHub Pages enabled.
 
-1. Create a **public** repository while signed into [GitHub](https://github.com/hidibbv). A repository named `hidibbv.github.io` serves the site at `https://hidibbv.github.io/`; a differently named repository is normally served at `https://hidibbv.github.io/REPOSITORY-NAME/`.
-2. Git is initialized locally on branch `main`, and the current portfolio has an initial commit. For a fresh copy that has not yet been initialized, install Git for Windows and create the initial commit:
+1. Sign in to GitHub as `hidibbv`. The repository named `hidibbv.github.io` serves the site at `https://hidibbv.github.io/`.
+2. Git is initialized locally on branch `main`, with meaningful commits. For a fresh copy that has not yet been initialized, install Git for Windows and create an initial commit:
 
    ```powershell
    git init
@@ -108,29 +108,28 @@ The GitHub repository and Pages site must be created and published by the owner;
    ```
 
    The commands above are setup instructions for a fresh checkout, not a record of this project's history.
-3. After creating the GitHub repository, add it as the `origin` remote and push the existing `main` branch, substituting the repository name you actually chose:
+3. This working copy already has `origin` set to `https://github.com/hidibbv/hidibbv.github.io.git`. After signing Git in to GitHub, push the existing branch:
 
    ```powershell
-   git remote add origin https://github.com/hidibbv/REPOSITORY-NAME.git
    git push -u origin main
    ```
 4. On GitHub, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and the `/ (root)` folder, then save.
 5. Wait for the Pages deployment to finish. Confirm the published URL in **Settings → Pages**, and test the home page and navigation links there.
 
-Git is available and has been initialized locally. The initial local commit exists, but no GitHub remote, public GitHub repository, or published Pages URL has been set up yet. Replace `REPOSITORY-NAME` with the exact repository name you create; if Git reports that an `origin` remote already exists, inspect it with `git remote -v` rather than adding a second remote.
+Git is available; local commits and the `origin` remote are ready. The current environment still needs GitHub authentication to push, and the Pages deployment has not yet been enabled or verified.
 
 ## GitHub links
 
 - Owner profile: [github.com/hidibbv](https://github.com/hidibbv)
 - Project 1 video: [youtu.be/VMnz2v79pUg](https://youtu.be/VMnz2v79pUg)
-- Repository: create it under the owner profile, then add its exact URL here.
-- Published website: add the GitHub Pages URL here after deployment.
+- Repository: [github.com/hidibbv/hidibbv.github.io](https://github.com/hidibbv/hidibbv.github.io) (public; code push still pending).
+- Website: expected at [hidibbv.github.io](https://hidibbv.github.io/) after GitHub Pages is enabled and deploys successfully.
 
-The site currently links to the GitHub profile. Add a repository link/icon after the repository has been created; its URL is not known yet.
+The site currently links to the GitHub profile. Add a repository link/icon to the site after the repository has received its website code.
 
 ## Assignment checklist
 
-The supplied SITE-1101 assignment asks for Home, About, and Projects pages; a profile photo; project titles, descriptions, and photos/screenshots; navigation and footer; a link to the website's GitHub repository; a root `README.md`; multiple meaningful commits; a publicly accessible GitHub Pages site; and a complete Markdown export of the actual AI chat prompts and responses. Its checklist specifically mentions a Project 1 title, description, and image, and offers a 10% bonus for a creative interactive gamified resume or About page. The current website includes a Journey logbook and an image of the team's OR-gate setup for Project 1. Repository creation, repository link, public deployment, genuine commit history, and the authentic combined chat export still need to be completed separately.
+The supplied SITE-1101 assignment asks for Home, About, and Projects pages; a profile photo; project titles, descriptions, and photos/screenshots; navigation and footer; a link to the website's GitHub repository; a root `README.md`; multiple meaningful commits; a publicly accessible GitHub Pages site; and a complete Markdown export of the actual AI chat prompts and responses. Its checklist specifically mentions a Project 1 title, description, and image, and offers a 10% bonus for a creative interactive gamified resume or About page. The current website includes a Journey logbook and an image of the team's OR-gate setup for Project 1. The repository exists and has a URL; pushing the website, enabling public Pages, and preparing the authentic combined chat export are still pending.
 
 ## AI conversation export
 
